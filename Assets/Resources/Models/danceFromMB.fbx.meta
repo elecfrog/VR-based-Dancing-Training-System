@@ -1,0 +1,937 @@
+fileFormatVersion: 2
+guid: f567747593c55654eab096b90d187562
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      74: 7813221276168055266
+    second: dance005_mcp
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'dance005_mcp' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Fanxiang_2023_6_20:Solving:Spine3' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: dance005_mcp
+      takeName: dance005_mcp
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 7932.9995
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Fanxiang_2023_6_20:Solving:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:Neck1
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Fanxiang_2023_6_20:Solving:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: danceFromMB(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling
+      parentName: danceFromMB(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:Hips
+      parentName: Fanxiang_2023_6_20:Labeling
+      position: {x: 0.03085138, y: 0.8755152, z: 0.7804043}
+      rotation: {x: -0.035290256, y: 0.9898462, z: 0.1207139, w: 0.06623602}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:Spine
+      parentName: Fanxiang_2023_6_20:Labeling:Hips
+      position: {x: -0, y: 0.18778308, z: 0}
+      rotation: {x: 0.17021093, y: 0.006465069, z: 0.052394092, w: 0.9839926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:Head
+      parentName: Fanxiang_2023_6_20:Labeling:Spine
+      position: {x: -0, y: 0.40748966, z: 0}
+      rotation: {x: 0.009962721, y: -0.0874431, z: -0.036625355, w: 0.99544615}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:Head_End
+      parentName: Fanxiang_2023_6_20:Labeling:Head
+      position: {x: -0, y: 0.114999995, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:LeftShoulder
+      parentName: Fanxiang_2023_6_20:Labeling:Spine
+      position: {x: -0, y: 0.24511789, z: -0.015610718}
+      rotation: {x: 0.02764143, y: -0.14383541, z: 0.44600433, w: 0.8829652}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:LeftArm
+      parentName: Fanxiang_2023_6_20:Labeling:LeftShoulder
+      position: {x: -0, y: 0.19575132, z: 0}
+      rotation: {x: 0.10735775, y: 0.5066152, z: 0.25373065, w: 0.8169676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:LeftForeArm
+      parentName: Fanxiang_2023_6_20:Labeling:LeftArm
+      position: {x: -0, y: 0.2881472, z: 0}
+      rotation: {x: -0.073706366, y: -0.43841928, z: 0.03610474, w: 0.8950153}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:LeftHand
+      parentName: Fanxiang_2023_6_20:Labeling:LeftForeArm
+      position: {x: -0, y: 0.2260017, z: 0}
+      rotation: {x: -0.03741189, y: 0.007744081, z: -0.20255023, w: 0.97852635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:LeftHandThumb1
+      parentName: Fanxiang_2023_6_20:Labeling:LeftHand
+      position: {x: -0.028733045, y: 0.03654688, z: 0.027175883}
+      rotation: {x: 0.38480818, y: -0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:LeftHandPinky1
+      parentName: Fanxiang_2023_6_20:Labeling:LeftHand
+      position: {x: -0, y: 0.075905055, z: -0.041232374}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:LeftHandIndex1
+      parentName: Fanxiang_2023_6_20:Labeling:LeftHand
+      position: {x: -0, y: 0.09745834, z: 0.019679088}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:RightShoulder
+      parentName: Fanxiang_2023_6_20:Labeling:Spine
+      position: {x: -0, y: 0.24511789, z: -0.015610718}
+      rotation: {x: 0.0029791722, y: 0.13724735, z: -0.5010355, w: 0.85446924}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:RightArm
+      parentName: Fanxiang_2023_6_20:Labeling:RightShoulder
+      position: {x: -0, y: 0.19575132, z: 0}
+      rotation: {x: 0.010554212, y: -0.437351, z: -0.29574016, w: 0.84920585}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:RightForeArm
+      parentName: Fanxiang_2023_6_20:Labeling:RightArm
+      position: {x: -0, y: 0.2881472, z: 0}
+      rotation: {x: -0.051059183, y: 0.34271014, z: -0.01865776, w: 0.93786705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:RightHand
+      parentName: Fanxiang_2023_6_20:Labeling:RightForeArm
+      position: {x: -0, y: 0.2260017, z: 0}
+      rotation: {x: 0.041955046, y: 0.007685852, z: 0.18002993, w: 0.982736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:RightHandThumb1
+      parentName: Fanxiang_2023_6_20:Labeling:RightHand
+      position: {x: 0.028733045, y: 0.03654688, z: 0.027175883}
+      rotation: {x: 0.38480818, y: -0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:RightHandPinky1
+      parentName: Fanxiang_2023_6_20:Labeling:RightHand
+      position: {x: -0, y: 0.075905055, z: -0.041232374}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:RightHandIndex1
+      parentName: Fanxiang_2023_6_20:Labeling:RightHand
+      position: {x: -0, y: 0.09745834, z: 0.019679088}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:LeftUpLeg
+      parentName: Fanxiang_2023_6_20:Labeling:Hips
+      position: {x: -0.10042375, y: 0, z: 0}
+      rotation: {x: 0.20789263, y: -0.03588858, z: 0.020518515, w: 0.9772777}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:LeftLeg
+      parentName: Fanxiang_2023_6_20:Labeling:LeftUpLeg
+      position: {x: -0, y: -0.4218926, z: 0}
+      rotation: {x: -0.10537395, y: 0, z: -0, w: 0.9944327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:LeftFoot
+      parentName: Fanxiang_2023_6_20:Labeling:LeftLeg
+      position: {x: -0, y: -0.37788984, z: 0}
+      rotation: {x: 0.1985929, y: -0.08582543, z: 0.02582643, w: 0.97597533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:LeftToeBase
+      parentName: Fanxiang_2023_6_20:Labeling:LeftFoot
+      position: {x: -0, y: 0, z: 0.12753747}
+      rotation: {x: -0.21275705, y: 0, z: -0, w: 0.97710514}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:LeftToeEnd
+      parentName: Fanxiang_2023_6_20:Labeling:LeftToeBase
+      position: {x: -0, y: 0, z: 0.074999996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:RightUpLeg
+      parentName: Fanxiang_2023_6_20:Labeling:Hips
+      position: {x: 0.10042375, y: 0, z: 0}
+      rotation: {x: 0.20302142, y: 0.103138514, z: 0.017595364, w: 0.97356826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:RightLeg
+      parentName: Fanxiang_2023_6_20:Labeling:RightUpLeg
+      position: {x: -0, y: -0.4218926, z: 0}
+      rotation: {x: -0.11136646, y: 0, z: -0, w: 0.9937794}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:RightFoot
+      parentName: Fanxiang_2023_6_20:Labeling:RightLeg
+      position: {x: -0, y: -0.37788984, z: 0}
+      rotation: {x: 0.19672835, y: 0.15703951, z: 0.06171326, w: 0.96583027}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:RightToeBase
+      parentName: Fanxiang_2023_6_20:Labeling:RightFoot
+      position: {x: -0, y: 0, z: 0.12753747}
+      rotation: {x: -0.5052944, y: 0, z: -0, w: 0.86294705}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Labeling:RightToeEnd
+      parentName: Fanxiang_2023_6_20:Labeling:RightToeBase
+      position: {x: -0, y: 0, z: 0.074999996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving
+      parentName: danceFromMB(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:Hips
+      parentName: Fanxiang_2023_6_20:Solving
+      position: {x: 0.0000000037252903, y: 0.8810557, z: 0}
+      rotation: {x: -0.053097367, y: -0.012928207, z: -0.034521192, w: 0.9979088}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:Spine
+      parentName: Fanxiang_2023_6_20:Solving:Hips
+      position: {x: -0, y: 0.110798165, z: -0.024713034}
+      rotation: {x: 0.07836441, y: 0.0030526146, z: 0.028514635, w: 0.99651223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:Spine1
+      parentName: Fanxiang_2023_6_20:Solving:Spine
+      position: {x: -0, y: 0.095633365, z: 0}
+      rotation: {x: 0.061880056, y: -0.0025430098, z: 0.010112089, w: 0.9980292}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:Spine2
+      parentName: Fanxiang_2023_6_20:Solving:Spine1
+      position: {x: -0, y: 0.095633365, z: 0}
+      rotation: {x: -0.009576752, y: 0.0022230886, z: 0.0111102685, w: 0.99988997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:Spine3
+      parentName: Fanxiang_2023_6_20:Solving:Spine2
+      position: {x: -0, y: 0.095633365, z: 0}
+      rotation: {x: -0.029901473, y: -0.002762861, z: -0.010992377, w: 0.99948865}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:Neck
+      parentName: Fanxiang_2023_6_20:Solving:Spine3
+      position: {x: -0, y: 0.12295717, z: 0.012295718}
+      rotation: {x: 0.16583085, y: -0.022751614, z: -0.01405564, w: 0.98579156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:Neck1
+      parentName: Fanxiang_2023_6_20:Solving:Neck
+      position: {x: -0, y: 0.061650775, z: 0}
+      rotation: {x: -0.038063582, y: -0.08041743, z: 0.030433815, w: 0.9955692}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:Head
+      parentName: Fanxiang_2023_6_20:Solving:Neck1
+      position: {x: -0, y: 0.061650775, z: 0}
+      rotation: {x: -0.17908873, y: -0.020725928, z: 0.042974636, w: 0.9826754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:HeadEnd
+      parentName: Fanxiang_2023_6_20:Solving:Head
+      position: {x: -0, y: 0.09728078, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:RightShoulder
+      parentName: Fanxiang_2023_6_20:Solving:Spine3
+      position: {x: -0, y: 0.08782656, z: 0.071967095}
+      rotation: {x: -0.085726276, y: 0.13333689, z: -0.64656013, w: 0.74621195}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:RightArm
+      parentName: Fanxiang_2023_6_20:Solving:RightShoulder
+      position: {x: -0, y: 0.19575132, z: 0}
+      rotation: {x: 0.13880986, y: -0.3179003, z: -0.13809389, w: 0.9276859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:RightForeArm
+      parentName: Fanxiang_2023_6_20:Solving:RightArm
+      position: {x: -0, y: 0.2881472, z: 0}
+      rotation: {x: -0.05491964, y: 0.3405906, z: -0.006698773, w: 0.9385825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:RightHand
+      parentName: Fanxiang_2023_6_20:Solving:RightForeArm
+      position: {x: -0, y: 0.2260017, z: 0}
+      rotation: {x: -0.30586034, y: 0.94764465, z: 0.087319754, w: -0.028183188}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:RightHandThumb1
+      parentName: Fanxiang_2023_6_20:Solving:RightHand
+      position: {x: 0.028733045, y: 0.03654688, z: 0.027175883}
+      rotation: {x: 0.38480818, y: -0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:RightHandMiddle1
+      parentName: Fanxiang_2023_6_20:Solving:RightHand
+      position: {x: -0, y: 0.09745834, z: -0.00062473293}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:LeftShoulder
+      parentName: Fanxiang_2023_6_20:Solving:Spine3
+      position: {x: -0, y: 0.08782656, z: 0.071967095}
+      rotation: {x: -0.05880733, y: -0.10851041, z: 0.63019353, w: 0.7665659}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:LeftArm
+      parentName: Fanxiang_2023_6_20:Solving:LeftShoulder
+      position: {x: -0, y: 0.19575132, z: 0}
+      rotation: {x: 0.12687713, y: 0.3575712, z: 0.13882628, w: 0.91475266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:LeftForeArm
+      parentName: Fanxiang_2023_6_20:Solving:LeftArm
+      position: {x: -0, y: 0.2881472, z: 0}
+      rotation: {x: -0.06083922, y: -0.40185452, z: 0.018608348, w: 0.9134908}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:LeftHand
+      parentName: Fanxiang_2023_6_20:Solving:LeftForeArm
+      position: {x: -0, y: 0.2260017, z: 0}
+      rotation: {x: -0.034686536, y: 0.008434603, z: -0.2361306, w: 0.97106546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:LeftHandThumb1
+      parentName: Fanxiang_2023_6_20:Solving:LeftHand
+      position: {x: -0.028733045, y: 0.03654688, z: 0.027175883}
+      rotation: {x: 0.38480818, y: -0, z: -0, w: 0.9229966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:LeftHandMiddle1
+      parentName: Fanxiang_2023_6_20:Solving:LeftHand
+      position: {x: -0, y: 0.09745834, z: -0.00062473293}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:RightUpLeg
+      parentName: Fanxiang_2023_6_20:Solving:Hips
+      position: {x: 0.10042375, y: 0, z: 0}
+      rotation: {x: 0.15696868, y: 0.013607633, z: 0.021439467, w: 0.9872771}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:RightLeg
+      parentName: Fanxiang_2023_6_20:Solving:RightUpLeg
+      position: {x: -0, y: -0.4218926, z: 0}
+      rotation: {x: -0.102772936, y: 0, z: -0, w: 0.99470484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:RightFoot
+      parentName: Fanxiang_2023_6_20:Solving:RightLeg
+      position: {x: -0, y: -0.37788984, z: 0}
+      rotation: {x: 0.097298026, y: 0.15766044, z: 0.08390513, w: 0.9790997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:RightForeFoot
+      parentName: Fanxiang_2023_6_20:Solving:RightFoot
+      position: {x: -0, y: -0.031553276, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:RightToeBase
+      parentName: Fanxiang_2023_6_20:Solving:RightForeFoot
+      position: {x: -0, y: 0, z: 0.123572655}
+      rotation: {x: -0.36269557, y: 0, z: -0, w: 0.93190765}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:RightToeBaseEnd
+      parentName: Fanxiang_2023_6_20:Solving:RightToeBase
+      position: {x: -0, y: 0, z: 0.04354958}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:LeftUpLeg
+      parentName: Fanxiang_2023_6_20:Solving:Hips
+      position: {x: -0.10042375, y: 0, z: 0}
+      rotation: {x: 0.16111626, y: -0.021642113, z: 0.03494585, w: 0.9860791}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:LeftLeg
+      parentName: Fanxiang_2023_6_20:Solving:LeftUpLeg
+      position: {x: -0, y: -0.4218926, z: 0}
+      rotation: {x: -0.09454207, y: 0, z: -0, w: 0.9955209}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:LeftFoot
+      parentName: Fanxiang_2023_6_20:Solving:LeftLeg
+      position: {x: -0, y: -0.37788984, z: 0}
+      rotation: {x: 0.102548406, y: -0.109677024, z: -0.032015733, w: 0.98814464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:LeftForeFoot
+      parentName: Fanxiang_2023_6_20:Solving:LeftFoot
+      position: {x: -0, y: -0.031553276, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:LeftToeBase
+      parentName: Fanxiang_2023_6_20:Solving:LeftForeFoot
+      position: {x: -0, y: 0, z: 0.123572655}
+      rotation: {x: 0.014650711, y: -0, z: -0, w: 0.9998927}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:Solving:LeftToeBaseEnd
+      parentName: Fanxiang_2023_6_20:Solving:LeftToeBase
+      position: {x: -0, y: 0, z: 0.039772853}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:ARIEL
+      parentName: danceFromMB(Clone)
+      position: {x: 0.010493128, y: 1.7163496, z: 0.8161744}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LFHD
+      parentName: danceFromMB(Clone)
+      position: {x: 0.12844217, y: 1.6661593, z: 0.7345867}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LBHD
+      parentName: danceFromMB(Clone)
+      position: {x: 0.10077293, y: 1.6158607, z: 0.8325871}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RFHD
+      parentName: danceFromMB(Clone)
+      position: {x: -0.026551642, y: 1.6812937, z: 0.67968917}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RBHD
+      parentName: danceFromMB(Clone)
+      position: {x: -0.061112862, y: 1.6204355, z: 0.8002304}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:C7
+      parentName: danceFromMB(Clone)
+      position: {x: 0.017955195, y: 1.3864744, z: 0.92124516}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:T10
+      parentName: danceFromMB(Clone)
+      position: {x: 0.0062158196, y: 1.185767, z: 0.93699616}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:CLAV
+      parentName: danceFromMB(Clone)
+      position: {x: 0.044743333, y: 1.3915765, z: 0.6914823}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:STRN
+      parentName: danceFromMB(Clone)
+      position: {x: 0.04671305, y: 1.2027127, z: 0.65079856}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LFSH
+      parentName: danceFromMB(Clone)
+      position: {x: 0.16894773, y: 1.4315562, z: 0.7434951}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LBSH
+      parentName: danceFromMB(Clone)
+      position: {x: 0.15333322, y: 1.4151407, z: 0.91926336}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LUPA
+      parentName: danceFromMB(Clone)
+      position: {x: 0.266579, y: 1.4693273, z: 0.8751881}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LELB
+      parentName: danceFromMB(Clone)
+      position: {x: 0.4673642, y: 1.4877985, z: 0.8106984}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LIEL
+      parentName: danceFromMB(Clone)
+      position: {x: 0.48250845, y: 1.3719828, z: 0.75903976}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LFRM
+      parentName: danceFromMB(Clone)
+      position: {x: 0.5898481, y: 1.4807876, z: 0.814835}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LIWR
+      parentName: danceFromMB(Clone)
+      position: {x: 0.6989506, y: 1.4317747, z: 0.7364108}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LOWR
+      parentName: danceFromMB(Clone)
+      position: {x: 0.69112575, y: 1.4667419, z: 0.8285476}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LIHAND
+      parentName: danceFromMB(Clone)
+      position: {x: 0.7823067, y: 1.4995877, z: 0.74583894}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LOHAND
+      parentName: danceFromMB(Clone)
+      position: {x: 0.769154, y: 1.4968596, z: 0.816257}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RFSH
+      parentName: danceFromMB(Clone)
+      position: {x: -0.09131238, y: 1.419649, z: 0.7180425}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RBSH
+      parentName: danceFromMB(Clone)
+      position: {x: -0.11694314, y: 1.3963149, z: 0.9057964}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RUPA
+      parentName: danceFromMB(Clone)
+      position: {x: -0.23921478, y: 1.4506642, z: 0.8439675}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RELB
+      parentName: danceFromMB(Clone)
+      position: {x: -0.40776104, y: 1.4470974, z: 0.7825218}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RIEL
+      parentName: danceFromMB(Clone)
+      position: {x: -0.4127365, y: 1.3230125, z: 0.73279715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RFRM
+      parentName: danceFromMB(Clone)
+      position: {x: -0.521948, y: 1.4306093, z: 0.788644}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RIWR
+      parentName: danceFromMB(Clone)
+      position: {x: -0.6405087, y: 1.387325, z: 0.70252264}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:ROWR
+      parentName: danceFromMB(Clone)
+      position: {x: -0.6411191, y: 1.3967123, z: 0.80120504}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RIHAND
+      parentName: danceFromMB(Clone)
+      position: {x: -0.7275587, y: 1.4234194, z: 0.7112908}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:ROHAND
+      parentName: danceFromMB(Clone)
+      position: {x: -0.7314644, y: 1.4302843, z: 0.7738957}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LFWT
+      parentName: danceFromMB(Clone)
+      position: {x: 0.17195715, y: 1.0079963, z: 0.7214432}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:MFWT
+      parentName: danceFromMB(Clone)
+      position: {x: 0.04822808, y: 1.0094548, z: 0.6486443}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RFWT
+      parentName: danceFromMB(Clone)
+      position: {x: -0.09710554, y: 1.0031958, z: 0.6889437}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LBWT
+      parentName: danceFromMB(Clone)
+      position: {x: 0.14627214, y: 0.99803627, z: 0.9200539}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:MBWT
+      parentName: danceFromMB(Clone)
+      position: {x: -0.0050080004, y: 0.9995384, z: 0.93415266}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RBWT
+      parentName: danceFromMB(Clone)
+      position: {x: -0.13472573, y: 0.96976596, z: 0.89104736}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LTHI
+      parentName: danceFromMB(Clone)
+      position: {x: 0.2219329, y: 0.68935454, z: 0.80517036}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LKNE
+      parentName: danceFromMB(Clone)
+      position: {x: 0.18902043, y: 0.4265459, z: 0.87512845}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LKNI
+      parentName: danceFromMB(Clone)
+      position: {x: 0.030722478, y: 0.42470294, z: 0.8315316}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LSHN
+      parentName: danceFromMB(Clone)
+      position: {x: 0.15492381, y: 0.24612361, z: 0.8074091}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LANK
+      parentName: danceFromMB(Clone)
+      position: {x: 0.17276368, y: 0.08931831, z: 0.8953407}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LHEL
+      parentName: danceFromMB(Clone)
+      position: {x: 0.069557555, y: 0.081492804, z: 0.8640727}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LMT5
+      parentName: danceFromMB(Clone)
+      position: {x: 0.19730873, y: 0.042561825, z: 0.75373745}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LMT1
+      parentName: danceFromMB(Clone)
+      position: {x: 0.1461588, y: 0.042032897, z: 0.7279177}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:LTOE
+      parentName: danceFromMB(Clone)
+      position: {x: 0.18184744, y: 0.04530647, z: 0.7023196}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RTHI
+      parentName: danceFromMB(Clone)
+      position: {x: -0.16197309, y: 0.6836025, z: 0.7414042}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RKNE
+      parentName: danceFromMB(Clone)
+      position: {x: -0.12091826, y: 0.4174739, z: 0.802496}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RKNI
+      parentName: danceFromMB(Clone)
+      position: {x: 0.013507391, y: 0.42082956, z: 0.85452676}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RSHN
+      parentName: danceFromMB(Clone)
+      position: {x: -0.07289859, y: 0.2475082, z: 0.7978003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RANK
+      parentName: danceFromMB(Clone)
+      position: {x: -0.117660694, y: 0.046598095, z: 0.8851347}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RHEL
+      parentName: danceFromMB(Clone)
+      position: {x: -0.014663456, y: 0.046943292, z: 0.8610467}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RMT5
+      parentName: danceFromMB(Clone)
+      position: {x: -0.12807952, y: 0.035973933, z: 0.7078316}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RMT1
+      parentName: danceFromMB(Clone)
+      position: {x: -0.06861213, y: 0.027714929, z: 0.68127954}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Fanxiang_2023_6_20:RTOE
+      parentName: danceFromMB(Clone)
+      position: {x: -0.09924317, y: 0.06368252, z: 0.676798}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
